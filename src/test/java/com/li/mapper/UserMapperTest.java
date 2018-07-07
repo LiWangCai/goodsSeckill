@@ -1,5 +1,6 @@
 package com.li.mapper;
 
+import com.li.po.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -15,4 +16,10 @@ public class UserMapperTest {
         System.out.println(userMapper.selectById(1));
     }
 
+    @Test
+    public void test2() {
+        User user = new User();
+        user.setId(1);
+        System.out.println(userMapper.selectOne(user));
+    }
 }

@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author nanGua
- * @since 2018-06-26
+ * @since 2018-07-07
  */
-@Service("studentService")
+@Service
 public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> implements StudentService {
 
 }
