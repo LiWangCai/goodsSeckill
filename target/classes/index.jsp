@@ -16,5 +16,11 @@ Hello MybatisPlus
     输入要查询的序号： <input type="text" name="id">
     <input type="submit">
 </form>
+
+<form action="/user/login.form" method="post">
+    用户名：<input type="text" name="username">
+    密码：<input type="text" name="password">
+    提交：<input type="submit">
+</form>
 </body>
 </html>
