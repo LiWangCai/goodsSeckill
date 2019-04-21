@@ -1,2 +1,2 @@
-# myBatisPlus
-这是一个myBatisPlus+spring+springMvc的项目
+# goodsSeckill
+商品秒杀项目
